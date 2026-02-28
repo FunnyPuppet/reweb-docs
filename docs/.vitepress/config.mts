@@ -2,7 +2,6 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/reweb-docs/',
   title: "ReWeb Lab",
   description: "ReWeb Lab",
   head: [
