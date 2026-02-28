@@ -4,9 +4,7 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 export default defineConfig({
   title: "ReWeb Lab",
   description: "ReWeb Lab",
-  head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]
-  ],
+  head: [["link", { rel: "icon", type: "image/png", href: "/logo.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav(),
@@ -18,7 +16,7 @@ export default defineConfig({
       },
     },
 
-    logo: { src: '/logo.png', width: 24, height: 24 },
+    logo: { src: "/logo.png", width: 24, height: 24 },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/FunnyPuppet/reweb-docs.git" },
@@ -35,7 +33,7 @@ export default defineConfig({
     },
 
     outline: {
-      label: '页面导航'
+      label: "页面导航",
     },
 
     lastUpdated: {
@@ -49,6 +47,13 @@ export default defineConfig({
       linkLabel: "前往首页",
       linkText: "带我回首页",
     },
+
+    returnToTopLabel: "回到顶部",
+    sidebarMenuLabel: "菜单",
+    darkModeSwitchLabel: "主题",
+    lightModeSwitchTitle: "切换到浅色模式",
+    darkModeSwitchTitle: "切换到深色模式",
+    skipToContentLabel: "跳转到内容",
   },
 });
 
