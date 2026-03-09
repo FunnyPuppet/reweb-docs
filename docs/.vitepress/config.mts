@@ -99,7 +99,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     {
       text: "案例",
       collapsed: false,
-      items: [{ text: "RootData", link: "root-data" }],
+      items: [
+        { text: "RootData", link: "root-data" },
+        { text: "携程", link: "ctrip" },
+        { text: "海异王者助手", link: "hayfuon" },
+      ],
     },
     { text: "结语", link: "end" },
   ];
