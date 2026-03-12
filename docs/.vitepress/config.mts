@@ -89,6 +89,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "小红书", link: "xhs" },
         { text: "抖音", link: "douyin" },
         { text: "TikTok", link: "tiktok" },
+        { text: "今日头条", link: "toutiao" },
       ],
     },
     {
