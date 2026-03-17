@@ -95,7 +95,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     {
       text: "行为验证",
       collapsed: false,
-      items: [{ text: "极验3", link: "jiyan3" }],
+      items: [
+        { text: "极验3", link: "jiyan3" },
+        { text: "腾讯滑块", link: "tdc" },
+      ],
     },
     {
       text: "案例",
