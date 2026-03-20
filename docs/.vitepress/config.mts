@@ -98,6 +98,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       items: [
         { text: "极验3", link: "jiyan3" },
         { text: "腾讯滑块", link: "tdc" },
+        { text: "云片", link: "yunpian" },
       ],
     },
     {
