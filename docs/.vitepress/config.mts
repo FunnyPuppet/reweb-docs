@@ -108,6 +108,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "RootData", link: "root-data" },
         { text: "携程", link: "ctrip" },
         { text: "海异王者助手", link: "hayfuon" },
+        { text: "当当网", link: "dangdang" },
       ],
     },
     { text: "结语", link: "end" },
