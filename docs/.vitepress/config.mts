@@ -100,6 +100,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "极验4", link: "jiyan4" },
         { text: "腾讯滑块", link: "tdc" },
         { text: "云片", link: "yunpian" },
+        { text: "数美", link: "shumei" },
       ],
     },
     {
