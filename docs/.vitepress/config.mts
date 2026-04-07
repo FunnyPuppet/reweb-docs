@@ -101,6 +101,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "腾讯滑块", link: "tdc" },
         { text: "云片", link: "yunpian" },
         { text: "数美", link: "shumei" },
+        { text: "顶象", link: "dingxiang" },
       ],
     },
     {
