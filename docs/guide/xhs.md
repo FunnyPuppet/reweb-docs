@@ -11,26 +11,26 @@
 
 - 找到字符映射数组，作为模块导出，作为后续字符数组映射。
 ```js
-var _0x5e26 = ['1OWxddp', 'UMGUw', 'PqfSQ', 'bAFBA', 'RdZOW', 'VTKBBQFM', 'zxdmC', 'tmPwM', 'wiumi', 'ΙIΙ', 'MhWZS', 'setPrototypeOf', 'PyUdY', 'MjAjc', 'xPcsI', 'EJjtF', 'HGVol', 'yxiaz', 'prototype', 'OBxQX', 'apply', 'cXDFm', '[object\x20Arguments]', 'BqDfU', 'IIΙ', 'HaYEx', 'XVDwO', 'jqHEd', 'eJIqr', 'BmFKC', 'vFVcP', 'length', 'rUBOo', 'kouSN', 'IVyLJ', 'UgkRn', '231578RZAPRo', 'iJhUX', 'slice', 'PWtFM', 'HkaBE', 'tYXYt', '321249iOnvFh', 'GADdy', 'IUXjo', 'AbRVN', 'Hcklz', 'hwjfK', 'kmriT', 'uMRFn', 'rttQd', '__bc', 'XxNlA', 'kqKnQ', 'mQhYz', 'sWKCl', 'construct', '260713ggTmlX', 'BYbSM', '3icXZpW', 'mZrHM', 'ZYFsA', 'ZQUMb', 'YtJvW', 'yuUMe', 'euoqz', 'jHwuh', 'CciCu', 'bind', 'JOCDJ', 'gqOZZ', 'IΙI', 'TNifp', 'CozeT', 'sham', 'SMVQv', 'ksZAC', '258308ThHaAN', 'qDuah', 'XBnTt', 'LzUba', '746795dpceNN', 'POWBq', 'Pwrup', 'BdEvR', 'fromCharCode', 'juZTe', 'iGuJR', 'bPojh', 'keys', 'lzlIX', 'yZBVv', 'yOsHa', 'err-209e10:\x20+\x20', 'QiARX', 'ABRVQ', 'xRIOr', 'XDOoR', 'oRfag', 'undefined', '1QZcWJQ', 'FdcjM', 'PczfC', 'ΙII', 'uixXY', 'ahwRp', 'SOoBb', 'RMSgu', 'hJTjo', 'yrDYx', 'dxzss', 'qfwSc', 'idiYu', 'DlfXv', 'UwVWk', 'PdbAc', 'push', 'gZeSF', 'nWekH', 'Kbhwt', 'ndGnJ', 'kPvxn', '121585KCTaKM', 'comGc', 'wnbho', 'QBTLS', 'NOFBb', 'SAYoa', 'XDLWq', 'cFexY', 'SygNu', 'function', 'HTOjf', 'hOwmN', 'EGbYA', 'suYWh', 'vvqfG', 'EJPiB', 'uCThz', 'FSTxk', 'Awtlv', 'XLyDS', 'qskTK', 'ZqAbc', 'PzXQN', 'sGqQS', 'JsjPA', 'tLDgE', 'QqSfw', 'xMjZi', 'Tthhs', 'IΙΙ', '742454TyjCbv', 'zmfqy', 'WLUSP', 'yrZuT', 'call', 'toString'];
-var _0x4a41 = function(_0x1218b5, _0x5e2612) {
-    _0x1218b5 = _0x1218b5 - 0x0;
-    var _0x4a419f = _0x5e26[_0x1218b5];
-    return _0x4a419f;
+var _0x5ae8 = []; // 字符串数组
+var _0xc8b2 = function(_0x1a35aa, _0x5ae836) {
+    _0x1a35aa = _0x1a35aa - 0x0;
+    var _0xc8b2c3 = _0x5ae8[_0x1a35aa];
+    return _0xc8b2c3;
 };
-(function(_0xe72767, _0xe7f5e) {
-    var _0x3fd162 = _0x4a41;
+(function(_0x2b3d19, _0x48653a) {
+    var _0x53ba32 = _0xc8b2;
     while (!![]) {
         try {
-            var _0x257514 = parseInt(_0x3fd162(0x29)) * -parseInt(_0x3fd162(0x54)) + parseInt(_0x3fd162(0x14)) + parseInt(_0x3fd162(0x41)) + -parseInt(_0x3fd162(0x2b)) * parseInt(_0x3fd162(0x6a)) + -parseInt(_0x3fd162(0x1a)) + -parseInt(_0x3fd162(0x3d)) + parseInt(_0x3fd162(0x8e)) * parseInt(_0x3fd162(0x88));
-            if (_0x257514 === _0xe7f5e)
+            var _0x14a3aa = parseInt(_0x53ba32(0x9f)) + -parseInt(_0x53ba32(0x30)) * -parseInt(_0x53ba32(0x86)) + -parseInt(_0x53ba32(0x26)) + -parseInt(_0x53ba32(0x1d)) + parseInt(_0x53ba32(0xc)) * parseInt(_0x53ba32(0x91)) + -parseInt(_0x53ba32(0x25)) + parseInt(_0x53ba32(0xb7));
+            if (_0x14a3aa === _0x48653a)
                 break;
             else
-                _0xe72767['push'](_0xe72767['shift']());
-        } catch (_0x5c8197) {
-            _0xe72767['push'](_0xe72767['shift']());
+                _0x2b3d19['push'](_0x2b3d19['shift']());
+        } catch (_0x492037) {
+            _0x2b3d19['push'](_0x2b3d19['shift']());
         }
     }
-}(_0x5e26, 0x7deda));
+}(_0x5ae8, 0x4f5f9));
 ```
 
 - 十六进制数字转十进制，Unicode中文解码
@@ -51,7 +51,8 @@ const handlerStrAndNum = {
 ```js
 const replaceSameIdentifier = {
   VariableDeclarator(path) {
-    if (!(path.node.init && path.node.init.name === '_0x4a41')) return;
+    // 这里的_0xc8b2需要根据实际情况修改
+    if (!(path.node.init && path.node.init.name === '_0xc8b2')) return;
 
     const references = path.scope.getBinding(path.node.id.name).referencePaths
     for (const reference of references) {
@@ -126,7 +127,8 @@ const CTFReserve = {
 - 控制流平坦化
 ```js
 const getSwitchCase = function(path) {
-  if (!(path.isIfStatement() && path.get('test').isBinaryExpression() && path.get('test').get('right').node.name === '_0x30595f')) return []
+  // _0x4ac770需要根据实际情况修改
+  if (!(path.isIfStatement() && path.get('test').isBinaryExpression() && path.get('test').get('right').node.name === '_0x4ac770')) return []
   
   let cases = []
   let operand = path.get('test').get('left')
@@ -154,7 +156,7 @@ const IfStatementToSwitch = {
   IfStatement(path) {
     const cases = getSwitchCase(path)
     if (cases.length === 0) return
-    path.replaceWith(types.switchStatement(types.identifier('_0x30595f'), cases))
+    path.replaceWith(types.switchStatement(types.identifier('_0x4ac770'), cases))
   }
 }
 ```
