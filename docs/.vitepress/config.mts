@@ -24,7 +24,7 @@ export default defineConfig({
 
     footer: {
       message: "基于 MIT 许可发布",
-      copyright: "版权所有 © 2019-至今 ReWeb Lab",
+      copyright: "版权所有 © 2026-至今 ReWeb Lab",
     },
 
     docFooter: {
