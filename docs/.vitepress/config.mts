@@ -113,6 +113,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "海异王者助手", link: "hayfuon" },
         { text: "当当网", link: "dangdang" },
         { text: "猫眼票房", link: "maoyan" },
+        { text: "惠农网", link: "cnhnb" },
       ],
     },
     { text: "结语", link: "end" },
