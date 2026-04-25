@@ -2,7 +2,7 @@
 
 ## 代码混淆还原
 
-```python
+```js
 const fs = require("fs");
 const parser = require("@babel/parser");
 const traverse = require("@babel/traverse").default;
@@ -3382,7 +3382,7 @@ with open("./js/2.js", "r") as f:
     js_code = f.read()
 
 ctx = execjs.compile(js_code)
-fp = "zb1ee4jzedbiziz6"  # 浏览器指纹，没有强校验，其实使用16位随机字符就行
+fp = "zb1ee4jzedbiziz6"  # 浏览器指纹，没有强校验，其实使用16位随机字符串就行
 url = "https://cactus.jd.com/request_algo"
 ts = int(time.time() * 1000)
 data = {
