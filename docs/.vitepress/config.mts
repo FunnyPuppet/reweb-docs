@@ -105,6 +105,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
+      text: "电商平台",
+      collapsed: false,
+      items: [
+        { text: "京东", link: "jd" },
+      ],
+    },
+    {
       text: "案例",
       collapsed: false,
       items: [
