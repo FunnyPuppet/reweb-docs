@@ -114,6 +114,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "当当网", link: "dangdang" },
         { text: "猫眼票房", link: "maoyan" },
         { text: "惠农网", link: "cnhnb" },
+        { text: "有道翻译", link: "youdao" },
       ],
     },
     { text: "结语", link: "end" },
